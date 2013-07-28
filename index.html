@@ -1,5 +1,39 @@
-<DOCTYPE HTML!>
-<head>
-</head>
-<body>
-</body>
+<!DOCTYPE HTML>
+<html>
+    <head><!--Información imporatnte para el navegador, nada dentro de esta eiqueta será visible para el usuario-->
+    </head>
+    <body>
+        <header><!--Cabecera, por lo general el título o logo-->
+            <h1>BigBangCode</h1>
+            <nav><!--Menú de navegación-->
+                <ul>
+                    <li>Inicio</li>
+                    <li>Desarrollo Web</li>
+                    <li>Equipo</li>
+                    <li>Contactenos</li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            Contenido de la web
+            <article>
+                <h2>Titulo del articulo</h2>
+                <p>Contenido</p>
+            </article>
+            <div itemscope itemtype="http://data-vocabulary.org/Person"><!--Microdatos, le dan más información al navegador sobre el contenido de la web-->
+                Me llamo <span itemprop="name">Julian</span> 
+                Me llaman <span itemprop="nickname">Juliandvg</span>
+                Trabajo como <span itemprop="title">desarrollador web</span>
+            </div>
+            <aside><!--Información importante para el contenido global de la web, pero no es directamente relevante con esta-->
+                <h3>Contenido tangencial</h3>
+                <p>Texto Texto, para expresar fechas se utilizan 2 etiquetas: <br>
+                    time y time datetime:
+                Hoy es <time>27/07/2013</time>. Tambien esta:<time datetime="27/07/2013">Hoy</time> voy a ir a un concierto</p>
+            </aside>
+        </section>
+        <footer><!--Pie de pagina-->
+            Pie de pagina, ano de publicacion o Copyright
+        </footer>
+    </body>
+</html>
